@@ -4,24 +4,70 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: #e0e7ff; /* Background color */
+    background-color: #808491; /* Background color */ 
 }
 
 .container {
     text-align: center;
     padding: 30px;
     background-color: #ffffff; /* Background color for container */
+    background-image: url(pawel-czerwinski-vI5XwPbGvmY-unsplash.jpg); 
     border-radius: 15px;
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
     width: 90%;
     max-width: 400px;
 }
 
-/* TODO: Add styles for labels, inputs, buttons, and output text */
+/* TODO: Add styles for labels, inputs, buttons, and output text */ 
+h1 {
+    font-size: 2.2em;
+    margin-bottom: 20px;
+    color: #4a4a4a; /* Header color */
+} 
 h1 {
     font-size: 2.2em;
     margin-bottom: 20px;
     color: #4a4a4a; /* Header color */
 }
 
-/* Add more styles here as needed */
+/* Menambahkan gaya untuk label */
+label {
+    font-size: 1.1em;
+    color: #333;
+    display: block;
+    margin-bottom: 5px;
+}
+
+/* Menambahkan gaya untuk input */
+input[type="text"], input[type="email"], input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* Menambahkan gaya untuk tombol */
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+/* Menambahkan gaya untuk output text */
+.output-text {
+    font-size: 1.2em;
+    color: #333;
+    margin-top: 10px;
+}
+
+
+/* Add more styles here as needed */ 
